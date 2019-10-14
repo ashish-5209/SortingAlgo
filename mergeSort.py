@@ -67,3 +67,11 @@ if __name__ == '__main__':
     mergeSort(arr, 0, len(arr)-1)
     print("Sorted array is: ", end="\n")
     printList(arr)
+    
+    
+# Time Complexity: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.
+# T(n) = 2T(n/2) + \Theta(n)
+
+# Time complexity of Merge Sort is \Theta(nLogn) in all 3 cases (worst, average and best) as merge sort always divides the array into two halves and take linear time to merge two halves.
+
+# Auxiliary Space: O(n)
